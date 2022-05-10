@@ -1,12 +1,7 @@
-
-//kirjotin kaikki kommentit 
 var elem= document.getElementById("eye");
 var pup = document.getElementById("pupil");
 document.addEventListener("mousemove",mousepos);
 
-//kaikki tehty yhdessä functiossa
-//en ihan kässänny javascriptin eventtejä
-//enkä jaksanu tapella niitten kanssa koska koodi on lyhyt
 function mousepos(){
     //alku infon järhjestely
     const rect=elem.getBoundingClientRect();//silmän cordinaatit
@@ -46,5 +41,4 @@ function mousepos(){
     pup.style.left=xn-5+"px";
     //päivittää silmän napin sijainnin
 };
-//tiesin ettei tämä ollut pakollinen portfolio sivuun mutta halusin lisätä kun tuntui ettei menty kovin syvälle js:ssään
 
