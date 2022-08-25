@@ -8,4 +8,7 @@ how to use
 2. in cs.css place #eye where ever you want
 3. add " <script src="jav.js" defer></script> " at the end of your html
 
+you can also use Eyewidget.js as a react component, you still need the css file
+
+
 
